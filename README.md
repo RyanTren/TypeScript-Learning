@@ -1,6 +1,7 @@
 # TypeScript-Learning
 
-Repo for learning TypeScript
+- Repo for learning TypeScript
 
 ### Course Info
-[Youtube Video](https://www.youtube.com/watch?v=JHEB7RhJG1Y)
+* [TS/TSX Documentation](https://www.typescriptlang.org/docs/)
+* [Youtube Video](https://www.youtube.com/watch?v=JHEB7RhJG1Y)

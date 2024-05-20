@@ -86,24 +86,32 @@ console.log(rand);
 
 // type predicate type guard
 
-type Student = {
-name: string;
-study: () => void;
-};
+// type Student = {
+// name: string;
+// study: () => void;
+// };
 
-type Users = {
-name: string;
-login: () => void;
-};
+// type Users = {
+// name: string;
+// login: () => void;
+// };
 
-type Person = Student | User;
+// type Person = Student | User;
 
-const randomPerson = (): Person => {
-return Math.random() > 0.5
-    ? { name: 'john', study: () => console.log('Studying') }
-    : { name: 'mary', login: () => console.log('Logging in') };
-};
+// const randomPerson = (): Person => {
+// return Math.random() > 0.5
+//     ? { name: 'john', study: () => console.log('Studying') }
+//     : { name: 'mary', login: () => console.log('Logging in') };
+// };
 
-const person = randomPerson();
+// const person = randomPerson();
 
+// function isStudent(person:Person){
+//     // return 'study' in person
+//     return (person as Student).study !== undefined;
+// }
 
+// if(isStudent(person)){
+//     person.study();
+// }
+// person.login();

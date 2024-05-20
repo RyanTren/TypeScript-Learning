@@ -238,3 +238,7 @@ console.log(getColorName(Color.Red)); // Red
 console.log(getColorName(Color.Blue)); // Blue
 // console.log(getColorName(Color.Green)); // undefined (no case handled in switch)
 
+// To fix this you need to make a case specifically for Green in the switch statement
+
+const susan = 'susan';
+const something = 'something';

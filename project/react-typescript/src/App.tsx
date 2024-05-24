@@ -1,16 +1,12 @@
-import { useState } from 'react'
-import './App.css'
-
-import Component from './starter/01-return';
+import Component from './starter/02-props';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <main>
-      <Component />
+      <Component name='peter' id = {123} children />
+      <Component name='peter' id = {123} children/>
     </main>
   )
 }
 
-export default App
+export default App;

@@ -1,0 +1,15 @@
+function Component(): JSX.Element | null | string{
+
+    return null;
+
+    return "Hello World";
+    
+    return (
+        <div>
+            <h2>React & TypeScript</h2>
+            <h2>Return Type</h2>
+        </div>
+    );
+}
+
+export default Component;

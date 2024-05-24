@@ -4,7 +4,6 @@ function App() {
   return (
     <main>
       <Component />
-      <Component />
     </main>
   )
 }

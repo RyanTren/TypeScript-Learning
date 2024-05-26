@@ -1,10 +1,10 @@
-import Component from './starter/05-complex-setup';
+import Component from './starter/06-context';
 
 function App() {
   return (
     <main>
-      <Component type='basic' name='susan'/>
-      <Component type='advanced' name='anna' email='anna@gmail.com'/>
+      <h2>React & TypeScript</h2>
+      <Component />
     </main>
   )
 }
